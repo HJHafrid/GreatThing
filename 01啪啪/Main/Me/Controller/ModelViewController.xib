@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModelViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="快捷登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ktk-It-Jkv">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="6xf-hG-zl6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6xf-hG-zl6"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6xf-hG-zl6"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feA-Kb-2ru">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="Fya-3B-BPQ"/>
+                        <constraint firstAttribute="width" constant="56" id="r8b-0e-MxQ"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="loginicon_phone.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Fya-3B-BPQ"/>
+                            <exclude reference="r8b-0e-MxQ"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Fya-3B-BPQ"/>
+                            <include reference="r8b-0e-MxQ"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ry-dX-jBV">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="BMr-Su-rVx"/>
+                        <constraint firstAttribute="height" constant="56" id="m2k-Xa-k6U"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="shareicon_weixin.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BMr-Su-rVx"/>
+                            <exclude reference="m2k-Xa-k6U"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="BMr-Su-rVx"/>
+                            <include reference="m2k-Xa-k6U"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gab-w8-3uv">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="vyO-8S-9J9"/>
+                        <constraint firstAttribute="height" constant="56" id="yfB-tk-uds"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="shareicon_qq.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vyO-8S-9J9"/>
+                            <exclude reference="yfB-tk-uds"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="vyO-8S-9J9"/>
+                            <include reference="yfB-tk-uds"/>
+                        </mask>
+                    </variation>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNb-Uq-6I2">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="8ue-Kt-Jfa"/>
+                        <constraint firstAttribute="height" constant="56" id="ICM-AP-Kkd"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="shareicon_sina.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8ue-Kt-Jfa"/>
+                            <exclude reference="ICM-AP-Kkd"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="8ue-Kt-Jfa"/>
+                            <include reference="ICM-AP-Kkd"/>
+                        </mask>
+                    </variation>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRa-tX-jyi">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="L4M-q3-dl9"/>
+                        <constraint firstAttribute="width" constant="42" id="j1y-Wj-Gax"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="L4M-q3-dl9"/>
+                            <exclude reference="j1y-Wj-Gax"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="L4M-q3-dl9"/>
+                            <include reference="j1y-Wj-Gax"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mr-Vy-hjY">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="8Y6-3A-VGI"/>
+                        <constraint firstAttribute="height" constant="21" id="kqw-NZ-rMR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8Y6-3A-VGI"/>
+                            <exclude reference="kqw-NZ-rMR"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="8Y6-3A-VGI"/>
+                            <include reference="kqw-NZ-rMR"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBu-4V-Mzc">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="SYH-7d-A3V"/>
+                        <constraint firstAttribute="width" constant="42" id="fjA-jO-Udw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="SYH-7d-A3V"/>
+                            <exclude reference="fjA-jO-Udw"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="SYH-7d-A3V"/>
+                            <include reference="fjA-jO-Udw"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微博" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftu-O0-Tkw">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="3UM-Eg-Hmc"/>
+                        <constraint firstAttribute="width" constant="42" id="6Dj-Iy-C2s"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="3UM-Eg-Hmc"/>
+                            <exclude reference="6Dj-Iy-C2s"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="3UM-Eg-Hmc"/>
+                            <include reference="6Dj-Iy-C2s"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DRa-tX-jyi" firstAttribute="top" secondItem="feA-Kb-2ru" secondAttribute="bottom" constant="14" id="3T7-k6-vBz"/>
+                <constraint firstAttribute="trailing" secondItem="Ktk-It-Jkv" secondAttribute="trailing" constant="152" id="3mk-Cb-shb"/>
+                <constraint firstItem="9mr-Vy-hjY" firstAttribute="top" secondItem="9Ry-dX-jBV" secondAttribute="bottom" constant="14" id="4NE-QR-1Zi"/>
+                <constraint firstAttribute="trailing" secondItem="gab-w8-3uv" secondAttribute="trailing" constant="92" id="8aw-qa-Itb"/>
+                <constraint firstItem="feA-Kb-2ru" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="89" id="8oF-Hv-ISO"/>
+                <constraint firstItem="ftu-O0-Tkw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="96" id="B32-eG-jcb"/>
+                <constraint firstAttribute="trailing" secondItem="QBu-4V-Mzc" secondAttribute="trailing" constant="101" id="F3w-LV-oFq"/>
+                <constraint firstItem="9Ry-dX-jBV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="H7a-8L-QIF"/>
+                <constraint firstItem="feA-Kb-2ru" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="IZQ-XM-915"/>
+                <constraint firstAttribute="trailing" secondItem="9Ry-dX-jBV" secondAttribute="trailing" constant="92" id="Ib8-QQ-KPa"/>
+                <constraint firstItem="QBu-4V-Mzc" firstAttribute="top" secondItem="gab-w8-3uv" secondAttribute="bottom" constant="19" id="JG8-mJ-FXv"/>
+                <constraint firstItem="gab-w8-3uv" firstAttribute="top" secondItem="9mr-Vy-hjY" secondAttribute="bottom" constant="32" id="KQ1-y2-2I7"/>
+                <constraint firstItem="Ktk-It-Jkv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="152" id="OSd-Xk-RNF"/>
+                <constraint firstItem="Ktk-It-Jkv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="28" id="ULB-WU-zfF"/>
+                <constraint firstItem="ftu-O0-Tkw" firstAttribute="top" secondItem="lNb-Uq-6I2" secondAttribute="bottom" constant="19" id="bhB-Mw-FR3"/>
+                <constraint firstItem="lNb-Uq-6I2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="89" id="hug-Ib-aFS"/>
+                <constraint firstItem="DRa-tX-jyi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="96" id="i6l-l8-0iA"/>
+                <constraint firstAttribute="trailing" secondItem="9mr-Vy-hjY" secondAttribute="trailing" constant="101" id="pq1-Yg-bGI"/>
+                <constraint firstItem="lNb-Uq-6I2" firstAttribute="top" secondItem="DRa-tX-jyi" secondAttribute="bottom" constant="32" id="xQ2-t1-w8k"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Ktk-It-Jkv"/>
+                    <exclude reference="feA-Kb-2ru"/>
+                    <exclude reference="9Ry-dX-jBV"/>
+                    <exclude reference="gab-w8-3uv"/>
+                    <exclude reference="lNb-Uq-6I2"/>
+                    <exclude reference="DRa-tX-jyi"/>
+                    <exclude reference="9mr-Vy-hjY"/>
+                    <exclude reference="QBu-4V-Mzc"/>
+                    <exclude reference="ftu-O0-Tkw"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="H7a-8L-QIF"/>
+                    <exclude reference="Ib8-QQ-KPa"/>
+                    <exclude reference="8oF-Hv-ISO"/>
+                    <exclude reference="IZQ-XM-915"/>
+                    <exclude reference="8aw-qa-Itb"/>
+                    <exclude reference="KQ1-y2-2I7"/>
+                    <exclude reference="hug-Ib-aFS"/>
+                    <exclude reference="xQ2-t1-w8k"/>
+                    <exclude reference="4NE-QR-1Zi"/>
+                    <exclude reference="pq1-Yg-bGI"/>
+                    <exclude reference="3T7-k6-vBz"/>
+                    <exclude reference="i6l-l8-0iA"/>
+                    <exclude reference="3mk-Cb-shb"/>
+                    <exclude reference="OSd-Xk-RNF"/>
+                    <exclude reference="ULB-WU-zfF"/>
+                    <exclude reference="F3w-LV-oFq"/>
+                    <exclude reference="JG8-mJ-FXv"/>
+                    <exclude reference="B32-eG-jcb"/>
+                    <exclude reference="bhB-Mw-FR3"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Ktk-It-Jkv"/>
+                    <include reference="feA-Kb-2ru"/>
+                    <include reference="9Ry-dX-jBV"/>
+                    <include reference="gab-w8-3uv"/>
+                    <include reference="lNb-Uq-6I2"/>
+                    <include reference="DRa-tX-jyi"/>
+                    <include reference="9mr-Vy-hjY"/>
+                    <include reference="QBu-4V-Mzc"/>
+                    <include reference="ftu-O0-Tkw"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="H7a-8L-QIF"/>
+                    <include reference="Ib8-QQ-KPa"/>
+                    <include reference="8oF-Hv-ISO"/>
+                    <include reference="IZQ-XM-915"/>
+                    <include reference="8aw-qa-Itb"/>
+                    <include reference="KQ1-y2-2I7"/>
+                    <include reference="hug-Ib-aFS"/>
+                    <include reference="xQ2-t1-w8k"/>
+                    <include reference="4NE-QR-1Zi"/>
+                    <include reference="pq1-Yg-bGI"/>
+                    <include reference="3T7-k6-vBz"/>
+                    <include reference="i6l-l8-0iA"/>
+                    <include reference="3mk-Cb-shb"/>
+                    <include reference="OSd-Xk-RNF"/>
+                    <include reference="ULB-WU-zfF"/>
+                    <include reference="F3w-LV-oFq"/>
+                    <include reference="JG8-mJ-FXv"/>
+                    <include reference="B32-eG-jcb"/>
+                    <include reference="bhB-Mw-FR3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="266" y="358"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loginicon_phone.png" width="56" height="56"/>
+        <image name="shareicon_qq.png" width="56" height="56"/>
+        <image name="shareicon_sina.png" width="56" height="56"/>
+        <image name="shareicon_weixin.png" width="56" height="56"/>
+    </resources>
+</document>

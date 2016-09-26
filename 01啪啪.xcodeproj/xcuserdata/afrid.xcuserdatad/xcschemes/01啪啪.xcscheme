@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0CAB0661D6B2DC200D955B1"
-               BuildableName = "01&#x556a;&#x556a;.app"
-               BlueprintName = "01&#x556a;&#x556a;"
+               BuildableName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP.app"
+               BlueprintName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP"
                ReferencedContainer = "container:01&#x556a;&#x556a;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0CAB0661D6B2DC200D955B1"
-            BuildableName = "01&#x556a;&#x556a;.app"
-            BlueprintName = "01&#x556a;&#x556a;"
+            BuildableName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP.app"
+            BlueprintName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP"
             ReferencedContainer = "container:01&#x556a;&#x556a;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0CAB0661D6B2DC200D955B1"
-            BuildableName = "01&#x556a;&#x556a;.app"
-            BlueprintName = "01&#x556a;&#x556a;"
+            BuildableName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP.app"
+            BlueprintName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP"
             ReferencedContainer = "container:01&#x556a;&#x556a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0CAB0661D6B2DC200D955B1"
-            BuildableName = "01&#x556a;&#x556a;.app"
-            BlueprintName = "01&#x556a;&#x556a;"
+            BuildableName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP.app"
+            BlueprintName = "&#x6700;&#x7f8e;&#x6709;&#x7269;APP"
             ReferencedContainer = "container:01&#x556a;&#x556a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
